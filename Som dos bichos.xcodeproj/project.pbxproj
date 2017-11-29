@@ -12,6 +12,12 @@
 		62DDD1C21FCEE0F60041C562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1C01FCEE0F60041C562 /* Main.storyboard */; };
 		62DDD1C41FCEE0F60041C562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1C31FCEE0F60041C562 /* Assets.xcassets */; };
 		62DDD1C71FCEE0F60041C562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1C51FCEE0F60041C562 /* LaunchScreen.storyboard */; };
+		62DDD1D51FCEE24D0041C562 /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1CF1FCEE24C0041C562 /* leao.mp3 */; };
+		62DDD1D61FCEE24D0041C562 /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1D01FCEE24C0041C562 /* cao.mp3 */; };
+		62DDD1D71FCEE24D0041C562 /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1D11FCEE24C0041C562 /* vaca.mp3 */; };
+		62DDD1D81FCEE24D0041C562 /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1D21FCEE24C0041C562 /* gato.mp3 */; };
+		62DDD1D91FCEE24D0041C562 /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1D31FCEE24D0041C562 /* macaco.mp3 */; };
+		62DDD1DA1FCEE24D0041C562 /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62DDD1D41FCEE24D0041C562 /* ovelha.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		62DDD1C31FCEE0F60041C562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62DDD1C61FCEE0F60041C562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62DDD1C81FCEE0F60041C562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62DDD1CF1FCEE24C0041C562 /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+		62DDD1D01FCEE24C0041C562 /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
+		62DDD1D11FCEE24C0041C562 /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+		62DDD1D21FCEE24C0041C562 /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		62DDD1D31FCEE24D0041C562 /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		62DDD1D41FCEE24D0041C562 /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		62DDD1BB1FCEE0F60041C562 /* Som dos bichos */ = {
 			isa = PBXGroup;
 			children = (
+				62DDD1CE1FCEE2350041C562 /* sons */,
 				62DDD1BC1FCEE0F60041C562 /* AppDelegate.swift */,
 				62DDD1BE1FCEE0F60041C562 /* ViewController.swift */,
 				62DDD1C01FCEE0F60041C562 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				62DDD1C81FCEE0F60041C562 /* Info.plist */,
 			);
 			path = "Som dos bichos";
+			sourceTree = "<group>";
+		};
+		62DDD1CE1FCEE2350041C562 /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				62DDD1D01FCEE24C0041C562 /* cao.mp3 */,
+				62DDD1D21FCEE24C0041C562 /* gato.mp3 */,
+				62DDD1CF1FCEE24C0041C562 /* leao.mp3 */,
+				62DDD1D31FCEE24D0041C562 /* macaco.mp3 */,
+				62DDD1D41FCEE24D0041C562 /* ovelha.mp3 */,
+				62DDD1D11FCEE24C0041C562 /* vaca.mp3 */,
+			);
+			path = sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DDD1D81FCEE24D0041C562 /* gato.mp3 in Resources */,
+				62DDD1DA1FCEE24D0041C562 /* ovelha.mp3 in Resources */,
+				62DDD1D61FCEE24D0041C562 /* cao.mp3 in Resources */,
 				62DDD1C71FCEE0F60041C562 /* LaunchScreen.storyboard in Resources */,
 				62DDD1C41FCEE0F60041C562 /* Assets.xcassets in Resources */,
+				62DDD1D91FCEE24D0041C562 /* macaco.mp3 in Resources */,
 				62DDD1C21FCEE0F60041C562 /* Main.storyboard in Resources */,
+				62DDD1D51FCEE24D0041C562 /* leao.mp3 in Resources */,
+				62DDD1D71FCEE24D0041C562 /* vaca.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
